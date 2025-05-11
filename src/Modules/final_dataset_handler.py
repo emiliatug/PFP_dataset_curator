@@ -10,8 +10,6 @@ pd.set_option("display.max_columns", None)
 import os
 import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "Data")))
 # Now import modules
 from Utils.utils import *
 

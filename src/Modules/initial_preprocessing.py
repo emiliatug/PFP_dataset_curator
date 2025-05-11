@@ -78,7 +78,7 @@ class InitialPreprocessor:
 
     @staticmethod
     def extract_verbal_names(
-        base_pattern: str, df_ProtEvalGO: Dict[str, pd.DataFrame]
+        base_pattern: str, df_prot_eval_go: Dict[str, pd.DataFrame]
     ) -> Tuple[pd.DataFrame, Set[str]]:
         """
         Extracts verbal names from BLAST files.
@@ -98,7 +98,7 @@ class InitialPreprocessor:
                             data_dict[key] = value
                             data_list.append({"NameUn": key, "VerbalName": value})
         df_names = pd.DataFrame(data_list).drop_duplicates()
-        protein_list = set(df_ProtEvalGO.keys()).difference(set(df_names["NameUn"]))
+        protein_list = set(df_prot_eval_go.keys()).difference(set(df_names["NameUn"]))
         return df_names, protein_list
 
     @staticmethod

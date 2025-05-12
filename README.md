@@ -1,5 +1,10 @@
 # Protein Function Prediction Dataset Curation
 
+This project contains a series of pipelines for data preprocessing and curating
+large-scale protein and gene ontology datasets with multiple features extracted from PFP, UniProt,
+QuickGO, and other Gene Ontology resources, alongside the implementation of a pipeline using networkx
+to generate the Lin Score (semantic similarity metric) as a label.
+
 ## Environment
 
 Please activate the environment before starting:

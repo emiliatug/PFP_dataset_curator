@@ -1,7 +1,4 @@
-import os
-import os
 import pickle
-import sys
 from collections import defaultdict
 from functools import reduce
 
@@ -21,9 +18,6 @@ from pygosemsim import (
     graph,
     similarity,
 )
-
-execution_dir = os.getcwd()
-os.chdir(execution_dir)
 
 
 def mainprocess(

@@ -7,9 +7,6 @@ import pandas as pd
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 
-import os
-import sys
-
 # Now import modules
 from Utils.utils import *
 

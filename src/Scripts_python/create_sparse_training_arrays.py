@@ -6,9 +6,6 @@ from Modules.sparse_training_array_handler import SparseTrainingArrayHandler
 from Modules.train_val_generator_handler import TrainValidationSplitHandler
 from Utils.utils import *
 
-current_working_dir = os.getcwd()
-os.chdir(current_working_dir)
-
 
 def mainprocess(
     class_data_paths: List[str],

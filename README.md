@@ -1,11 +1,11 @@
-# Protein Function Prediction Dataset Curation 
+# Protein Function Prediction (PFP) Dataset Curation 
 
 ## Background
 This project (Protein Function Prediction Dataset Curation and pfp_prediction_evaluator) implements the full pipeline for generating, curating, and labeling protein dataset to evaluate the performance of the Protein Function Prediction (PFP) method developed by the Kihara Lab, (https://kiharalab.org/). 
 
 While traditionally protein functions have been determined experimentally. Since 1990s there has been a lot of progress in computational protein function prediction research. Normally the predictions are either evaluated on benchmark dataset, or through challenges, like [CAFA](https://biofunctionprediction.org/cafa/), where the organizers provide sequence data and different teams submit their predictions which are validated by organizers through experimental annotations.
 
-This page (Protein Function Prediction Dataset Curation) contains a series of pipelines for data preprocessing and curating for 9001 proteins which I am using in the [pfp_prediction_evaluator](https://github.com/emiliatug/pfp_prediction_evaluator), to assess the accuracy of the PFP method through machine learning. 
+This page (Protein Function Prediction (PFP) Dataset Curation) contains a series of pipelines for data preprocessing and curating for 9001 proteins which I am using in the [pfp_prediction_evaluator](https://github.com/emiliatug/pfp_prediction_evaluator), to assess the accuracy of the PFP method through machine learning. 
 
 ### Data Generation and Curation
 This repository focuses on building such a curated dataset through:

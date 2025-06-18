@@ -9,7 +9,7 @@ This page (Protein Function Prediction Dataset Curation) contains a series of pi
 
 ### Data Generation and Curation
 This repository focuses on building such a curated dataset through:
-protein and Gene Ontology Terms from [UniProt](https://www.uniprot.org/), and [Gene Ontology Consortium]([https://www.uniprot.org/] feature extraction for the list of pre-selected 9001 proteins
+protein and Gene Ontology Terms from [UniProt](https://www.uniprot.org/), and [Gene Ontology Consortium](https://geneontology.org/) feature extraction for the list of pre-selected 9001 proteins
 Labeling each prediction using the Lin Semantic Similarity Score
 
 The cluster-representative proteins were selected using sequences derived from the [UniClust](https://uniclust.mmseqs.com/) database, based on 30% sequence identity and filtered to only include SwissProt proteins. These proteins serve as a representative subset of UniProt’s protein space and were generated in bash. 

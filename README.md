@@ -17,22 +17,11 @@ The cluster-representative proteins were selected using sequences derived from t
 ### Structured Dataset
 For each protein–PFP-predicted GO term pair, I assembled:
 
-Raw features from the PFP's intermediate outputs
+-The frequency of the PSI-BLAST hits from the PFP's intermediate outputs
 
-Supporting metadata from UniProt and GO consortium
+-Supporting metadata from both UniProt and GO consortium in either one hot-encodings or numerical features
 
-A Lin Score label comparing the predicted GO term to the correct set of annotations
-
-The final structured dataset contains one row per (protein, predicted GO term) pair, including:
-
-Features derived from PFP’s prediction pipeline
-
-One-hot encodings for GO term characteristics
-
-Numerical features describing both protein and GO terms
-
-A Lin Score label measuring semantic similarity between the predicted and actual annotations
-
+-A Lin score label comparing the predicted GO term to the correct set of annotations
 
 ## Environment
 
